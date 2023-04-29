@@ -5,9 +5,9 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class MojangProfile(
+public data class MojangProfile(
     @SerialName("created_at")
-    val createdAt: String,
+    val createdAt: String? = null,
     @SerialName("textures")
     val textures: Textures,
     @SerialName("username")
@@ -18,9 +18,9 @@ data class MojangProfile(
     val uuid: String
 ) {
     @Serializable
-    data class Textures(
+    public data class Textures(
         @SerialName("cape")
-        val cape: Cape,
+        val cape: Cape? = null,
         @SerialName("custom")
         val custom: Boolean,
         @SerialName("raw")
@@ -31,7 +31,7 @@ data class MojangProfile(
         val slim: Boolean
     ) {
         @Serializable
-        data class Cape(
+        public data class Cape(
             @SerialName("data")
             val `data`: String,
             @SerialName("url")
@@ -39,7 +39,7 @@ data class MojangProfile(
         )
 
         @Serializable
-        data class Raw(
+        public data class Raw(
             @SerialName("signature")
             val signature: String,
             @SerialName("value")
@@ -47,7 +47,7 @@ data class MojangProfile(
         )
 
         @Serializable
-        data class Skin(
+        public data class Skin(
             @SerialName("data")
             val `data`: String,
             @SerialName("url")
@@ -56,7 +56,7 @@ data class MojangProfile(
     }
 
     @Serializable
-    data class UsernameHistory(
+    public data class UsernameHistory(
         @SerialName("username")
         val username: String
     )
