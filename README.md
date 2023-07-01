@@ -11,7 +11,6 @@ Use the Kojang object, to access the API.
 
 ```kotlin
 repositories {
-    mavenCentral()
     maven("https://jitpack.io")
 }
 ```
