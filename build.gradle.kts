@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "de.fruxz.kojang"
-version = "1.0-RC2"
+version = "1.0"
 
 repositories {
     mavenCentral()
