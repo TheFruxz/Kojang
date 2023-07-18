@@ -17,7 +17,7 @@ repositories {
 
 ```kotlin
 dependencies {
-    implementation("com.github.TheFruxz:Kojang:1.0-RC")
+    implementation("com.github.TheFruxz:Kojang:1.0")
 }
 ```
 
