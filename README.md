@@ -1,7 +1,7 @@
 # Kojang
 ## 👋
 
-Welcome to Kojang, a Kotlin implementation of the [Mojang API from Electroid](https://github.com/Electroid/mojang-api).
+Welcome to Kojang, a Kotlin implementation of [mojang-api from Electroid](https://github.com/Electroid/mojang-api).
 
 ## Usage
 
