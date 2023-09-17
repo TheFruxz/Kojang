@@ -19,7 +19,7 @@ import java.util.*
  * This class helps to get information about players/users from Mojang.
  * This utilizes the [Mojang API from Electroid](https://github.com/Electroid/mojang-api).
  * @author Fruxz
- * @since 1.0-RC
+ * @since 1.0
  */
 @Suppress("MemberVisibilityCanBePrivate")
 public object Kojang {
