@@ -4,7 +4,7 @@ plugins {
     `maven-publish`
 }
 
-group = "de.fruxz.kojang"
+group = "dev.fruxz.kojang"
 version = "1.0.1"
 
 repositories {

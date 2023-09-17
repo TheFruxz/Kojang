@@ -1,6 +1,6 @@
-package de.fruxz.kojang
+package dev.fruxz.kojang
 
-import de.fruxz.kojang.domain.MojangProfile
+import dev.fruxz.kojang.domain.MojangProfile
 import dev.fruxz.ascend.extension.tryOrNull
 import dev.fruxz.ascend.json.globalJson
 import io.ktor.client.*

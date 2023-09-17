@@ -1,4 +1,4 @@
-package de.fruxz.kojang.domain
+package dev.fruxz.kojang.domain
 
 
 import kotlinx.serialization.SerialName
