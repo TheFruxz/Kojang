@@ -9,12 +9,12 @@ version = "1.1.0"
 
 repositories {
     mavenCentral()
-    maven("https://jitpack.io")
+    maven("https://repo.fruxz.dev/releases")
 }
 
 dependencies {
 
-    api("com.github.TheFruxz:Ascend:2023.3.4")
+    api("dev.fruxz:ascend:2024.1")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
