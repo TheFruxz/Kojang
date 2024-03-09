@@ -11,13 +11,13 @@ Use the Kojang object, to access the API.
 
 ```kotlin
 repositories {
-    maven("https://jitpack.io")
+    maven("https://repo.fruxz.dev/releases/")
 }
 ```
 
 ```kotlin
 dependencies {
-    implementation("com.github.TheFruxz:Kojang:1.0")
+    implementation("dev.fruxz:kojang:$kojangVersion")
 }
 ```
 
