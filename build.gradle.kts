@@ -22,7 +22,7 @@ dependencies {
 
     implementation("io.ktor:ktor-client-cio:2.3.9")
     implementation("io.ktor:ktor-client-core-jvm:2.3.9")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.9")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.10")
     implementation("io.ktor:ktor-client-content-negotiation:2.3.9")
 
     testImplementation(kotlin("test"))
