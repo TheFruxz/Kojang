@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
 
-    api("dev.fruxz:ascend:2024.1.2")
+    api("dev.fruxz:ascend:2024.2.1")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
