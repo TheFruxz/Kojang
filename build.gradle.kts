@@ -20,7 +20,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
 
-    implementation("io.ktor:ktor-client-cio:2.3.12")
+    implementation("io.ktor:ktor-client-cio:3.0.0")
     implementation("io.ktor:ktor-client-core-jvm:3.0.0")
     implementation("io.ktor:ktor-serialization-kotlinx-json:3.0.0")
     implementation("io.ktor:ktor-client-content-negotiation:3.0.0")
