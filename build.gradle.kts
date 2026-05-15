@@ -20,10 +20,10 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0")
 
-    implementation("io.ktor:ktor-client-cio:3.4.3")
-    implementation("io.ktor:ktor-client-core-jvm:3.4.3")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:3.4.3")
-    implementation("io.ktor:ktor-client-content-negotiation:3.4.3")
+    implementation("io.ktor:ktor-client-cio:3.5.0")
+    implementation("io.ktor:ktor-client-core-jvm:3.5.0")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:3.5.0")
+    implementation("io.ktor:ktor-client-content-negotiation:3.5.0")
 
     testImplementation(kotlin("test"))
 }
